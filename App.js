@@ -4,12 +4,14 @@ export default function App() {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>Recovery App</Text>
+
       <Text style={styles.subtitle}>
         Recursos de recuperación para pacientes y familias
       </Text>
 
       <TouchableOpacity style={styles.card}>
         <Text style={styles.cardTitle}>AA</Text>
+
         <Text style={styles.cardText}>
           Literatura y reflexiones
         </Text>
@@ -17,6 +19,7 @@ export default function App() {
 
       <TouchableOpacity style={styles.card}>
         <Text style={styles.cardTitle}>CODA</Text>
+
         <Text style={styles.cardText}>
           Recursos para codependencia
         </Text>
@@ -24,6 +27,7 @@ export default function App() {
 
       <TouchableOpacity style={styles.card}>
         <Text style={styles.cardTitle}>Familia</Text>
+
         <Text style={styles.cardText}>
           Material para familiares
         </Text>
@@ -31,6 +35,7 @@ export default function App() {
 
       <TouchableOpacity style={styles.card}>
         <Text style={styles.cardTitle}>Clínicas</Text>
+
         <Text style={styles.cardText}>
           Recursos y orientación
         </Text>
@@ -65,9 +70,11 @@ const styles = StyleSheet.create({
     padding: 25,
     borderRadius: 20,
     marginBottom: 20,
+
     shadowColor: '#000',
     shadowOpacity: 0.05,
     shadowRadius: 10,
+
     elevation: 3,
   },
 
